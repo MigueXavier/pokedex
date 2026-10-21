@@ -1,0 +1,28 @@
+.pokemon-card {
+  background: #ffffff;
+  border: 2px solid #e5e5e5;
+  border-top: 8px solid #e3350d; /* faixa vermelha de Pokédex no topo */
+  border-radius: 12px;
+  padding: 16px;
+  color: #222;
+  cursor: pointer;
+  transition: transform 0.15s, border-color 0.15s;
+  
+  
+}
+.pokemon-card h1{
+  font-size: 2rem;
+}
+.pokemon-card img{
+  height: 120px;
+  width: 100%;
+  object-fit: contain;
+}
+.pokemon-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 2fr));
+  gap: 16px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px;
+}
